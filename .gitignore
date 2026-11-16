@@ -17,6 +17,7 @@ __pycache__/
 .venv/
 venv/
 .env
+.vscode/
 
 # Private track - data and work on restricted datasets never leave this machine
 private/
