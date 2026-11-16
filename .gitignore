@@ -1,0 +1,22 @@
+# Raw and processed data are never committed - see DATA_SOURCES.md
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Generated outputs (charts are small and may be committed selectively)
+outputs/**/*.xlsx
+outputs/**/*.csv
+*.joblib
+*.pkl
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+.env
+
+# Private track - data and work on restricted datasets never leave this machine
+private/
